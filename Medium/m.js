@@ -1,14 +1,13 @@
 let user = prompt('Write something!');
 
-if (user === "") {
-    console.log('Write something!');
+if (user === user.toUpperCase()) {
+    console.log("ok ok no need to shout! (you are yelling)");
 }
-else if (user === user.toUpperCase()) {
-    console.log("ok ok no need to shout!");
-}
+
 else if (user === user.toLowerCase()) {
-    console.log("can't hear you bud.");
+    console.log("can't hear you bud. (you are whispering)");
 }
+
 else {
     console.log("nice inside voice.");
 }
