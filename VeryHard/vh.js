@@ -23,12 +23,16 @@ let answer;
 if (operator === "+") {
     answer = add(x, y);
 }
+
 else if (operator === "-") {
     answer = subtract(x, y);
 }
+
 else if (operator === "*") {
     answer = multiply(x, y);
-} else if (operator === "/") {
+} 
+
+else if (operator === "/") {
     answer = divide(x, y);
 }
 
